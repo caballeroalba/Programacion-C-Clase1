@@ -20,7 +20,7 @@ int main()
 			if(cadena[i+1] == 's'){
 				goto es_s;
 			}else{
-				printf("no tenemos una a seguida de una s\n");
+				printf("no hay una a seguida de una s");
 				goto fin;				
 			}
 		}else{

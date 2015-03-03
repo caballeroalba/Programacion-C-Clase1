@@ -4,9 +4,19 @@
  */
 
 /* Bibliotecas a incluir */
+#include <stdio.h>
 
 void main () {
 	/* Declaración de variables */
+	int valor = 10;
 
 	/* Código usando condicional if */
+	if (valor > 5)
+		printf("Es mayor de 5\n");
+	 else if (valor < 5)
+		printf("Es menor que 5\n");
+		
+	
+
+
 }
